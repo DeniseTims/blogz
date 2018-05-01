@@ -7,22 +7,22 @@
                 font-style: normal;
             }
             .link1{
-                margin-top: 45px;
-                padding-left: 15px;
+                margin-top: 25px;
+                padding-left: 200px;
             }
             .link2, .link3, .link5 {
-                margin-top: 45px;
-                padding-left: 15px;
+                margin-top: 25px;
+                padding-left: 10px;
             }
             .link4{
-                margin-top: 45px;
-                padding-left: 15px;
+                margin-top: 25px;
+                padding-left: 10px;
             }
             .top-title{
-                font-size: 24pt;
+                font-size: 20pt;
             }
             .form {
-                padding-left: 500px;
+                padding-left: 200px;
             }
             a {
                 font-family: sans-serif;
@@ -32,17 +32,17 @@
                 display: block;
             }
             p {
-                font-size: 14pt;
+                font-size: 10pt;
                 font-weight: normal;
             }
             textarea {
                 display: block;
             }
             #div-cont {
-                padding-left: 20px
+                padding-left: 10px
             }
             #signup {
-                padding-left: 550px;
+                padding-left: 250px;
             }
             hr {
 
@@ -60,7 +60,8 @@
 <body>
 
     <div>
-        <a href="/blog" class='form'>all blogs</a><a href='/newpost' class='link2'>new post</a>
+        <a href='/' class='link1'>home</a><a href="/blog" class='link2'>all blogs</a><a href='/newpost' class='link3'>new post</a>
+        <a href="/login" class='link4'>login</a><a href='/logout' class='link5'>logout</a>
     </div>
 
     {% block content %}
